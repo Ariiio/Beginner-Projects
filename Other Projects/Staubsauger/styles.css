@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  background: #eee;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.header {
+  background: tan;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 5%;
+  height: 5%;
+}
+
+.header ul {
+  display: flex;
+  gap: 16px;
+  padding: 8px;
+}
+
+.navbar {
+  font-size: 32px;
+  font-family: monospace;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 auto;
+  padding: 8px;
+}
+
+.card {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  padding: 16px;
+  margin: 16px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: lightslategray;
+}
+
+.footer ul {
+  display: flex;
+  gap: 16px;
+  padding: 8px;
+}
